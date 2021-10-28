@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --navy: hsl(243, 87%, 12%);
+    --desaturatedBlue: hsl(238, 22%, 44%);
+    --blue: hsl(224, 93%, 58%);
+    --cyan: hsl(170, 45%, 43%);
+    --lightGray: hsl(240, 75%, 98%);
+    --gray: hsl(0, 0%, 75%);
+    --black: #000;
+    --white: #fff;
+    --Raleway: 'Raleway', sans-serif;
+    --OpenSans: 'Open Sans', sans-serif;
+}
+
+::selection {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+    min-height: 100vh;
+    min-width: 375px;
+    max-width: 1980px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: var(--OpenSans);
+    text-align: center;
+}
+
+h1, h2, a {
+    font-family: var(--Raleway);
+}
+
+.container {
+    padding: 2em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
